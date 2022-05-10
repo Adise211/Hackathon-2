@@ -1,0 +1,95 @@
+/*Selector {
+	Property: value;
+}*/
+
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1633341199825-8b119d560202?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+	background-size: cover;
+	background-position: center;
+}
+
+body h3 {
+	cursor: pointer;
+	color: black;
+	border: 4px solid white;
+	padding: 7px;
+	background: #FFF89A;
+	margin-right: 60em;
+	text-align: center;
+}
+
+
+body h3:hover {
+	border: 4px solid #FFEE00;
+	color: black;
+	background-color: #FFEE00;
+
+}
+
+
+.title {
+	color: green;
+	text-align: center;
+	font-size: 70px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 0px;
+}
+
+/*navigation bar*/
+.nav {
+	list-style: none;
+	cursor: pointer;
+	display: inline-block;
+	color: white;
+	font-size: 200%;
+	font-style: italic;
+	text-align: center;
+	border: 1px dotted #801A15;
+	background-color: #801A15;
+	border-radius: 10px;
+	padding: 12px 25px 12px 25px;
+}
+
+.navall {
+	word-spacing: 30px;
+	text-align: center;
+}
+
+.nav:hover {
+	background-color: white;
+	color: #801A15;
+}
+
+
+
+
+/*links*/
+a {
+	text-decoration: none;
+	color: #FC184D;
+}
+
+
+
+article {
+	border: 5px solid white;
+	font-style: oblique;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	background-color: black;
+	opacity: 0.75;
+}
+
+
+.footer,p {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
